@@ -4,7 +4,10 @@ import Income from "../components/Income";
 const Homepage = () => {
   return (
     <>
-      <Income></Income>
+      <div className="grid grid-cols-2 p-3">
+        <Income></Income>
+        <div></div>
+      </div>
     </>
   );
 };

@@ -16,3 +16,7 @@ const userSlice = createSlice({
     signUp: (statusbar, actions) => {},
   },
 });
+
+
+export const {} = userSlice.actions 
+export default userSlice.reducer

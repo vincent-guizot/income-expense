@@ -28,6 +28,6 @@ export const trackerSlice = createSlice({
   },
 });
 
-export const { fetchIncomesSuccess } = trackerSlice.actions;
+export const { fetchIncomesSuccess, fetchIncomesFail, fetchIncomesStart, } = trackerSlice.actions;
 
 export default trackerSlice.reducer;
